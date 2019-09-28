@@ -73,9 +73,9 @@ body {
   margin-left: 118px;
   margin-right: 11px;
   width: 960px;
-  height: 600px;
+  height: 500px;
   padding: 20px;
-  bottom: 400px;
+  bottom: 370px;
   justify-content: center;
   
 }
@@ -111,17 +111,11 @@ body {
   padding: 20px;
   height: 180px;
   width: 30%;
-  right: 10px;
+  right: 17px;
   position: relative;
   float: top;
 }
 
-
-.submit {
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  position: relative;
-  bottom: 350px;
-}
 
 input[type=text], select {
   width: 100%;
@@ -138,8 +132,6 @@ input[type=text], select {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: relative;
   bottom: 350px;
-  height: 100px;
-  width: 100%;
 }
 
 
@@ -150,5 +142,5 @@ input[type=text], select {
   border-style: solid;
   text-align: center;
   position: relative;
-  bottom: 400px;
+  bottom: 300px;
 }
