@@ -1,0 +1,9 @@
+.header {
+    background-color: #ffffff;
+    border: 5px;
+    border-style: solid;
+}
+
+* {
+    background-color: aqua;
+}

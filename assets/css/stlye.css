@@ -1,0 +1,154 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #ffffff;
+  width: 100%;
+  bottom: 10px;
+}
+
+li {
+  float: right;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: #777777;
+  text-align: center;
+  position: relative;
+  right: 140px;
+  top: 6px;
+  padding: 20px 14px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #4aaaa5;
+}
+
+.left {
+  top: 8px;
+  margin-bottom: 3px;
+  color: white;
+  left: 130px;
+  font-size: x-large;
+  text-align: justify;
+  background-color: #4aaaa5;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: relative;
+}
+
+.right {
+  justify-content: end;
+  display: flex;
+}
+
+
+.name {
+  background-color: black;
+  position: relative;
+  bottom: 40 px;
+  top: 20px;
+}
+
+body {
+  background-image: url("http://www.webdesigndev.com/wp-content/uploads/2015/02/Subtle-Light-Tile-Pattern-Vol5.jpg");
+  background-color: #cccccc;
+  margin-bottom: 200px;
+  height: 700px;
+  width: auto;
+  border: #777777;
+  border-width: thick;
+ }
+
+.main {
+  background-color: #ffffff;
+  position: relative;
+  margin: 110px;
+  margin-left: 118px;
+  margin-right: 11px;
+  width: 960px;
+  height: 600px;
+  padding: 20px;
+  bottom: 400px;
+  justify-content: center;
+  
+}
+
+.h1 {
+  position: relative;
+  left: 2px;
+  bottom: 10px;
+  color: #4aaaa5;
+}
+
+.About_Me {
+  display: flex;
+  shape-outside: content-box;
+  border-top: solid;
+  border-width: thin;
+  width: 960px;
+  height: 370px;
+  top: 20px;
+}
+
+#p {
+  margin: 10px;
+  float: inline-end;
+  font-style: normal;
+  font-size: x-large;
+  display: inline;
+  color: #777777;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bio-image {
+  padding: 20px;
+  height: 180px;
+  width: 30%;
+  right: 10px;
+  position: relative;
+  float: top;
+}
+
+
+.submit {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  position: relative;
+  bottom: 350px;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  height: 30px;
+}
+
+.submit {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  bottom: 350px;
+  height: 100px;
+  width: 100%;
+}
+
+
+.footer {
+  background-color: #666666;
+  padding: 10px;
+  border-top: #4aaaa5;
+  border-style: solid;
+  text-align: center;
+  position: relative;
+  bottom: 400px;
+}
