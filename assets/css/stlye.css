@@ -1,3 +1,7 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -41,11 +45,14 @@ li a:hover {
   padding-right: 20px;
   padding-left: 20px;
   position: relative;
+  height: 32px;
 }
 
 .right {
   justify-content: end;
   display: flex;
+  right: 270px;
+  font-size: 18px;
 }
 
 
@@ -73,7 +80,7 @@ body {
   margin-left: 118px;
   margin-right: 11px;
   width: 960px;
-  height: 500px;
+  height: 540px;
   padding: 20px;
   bottom: 370px;
   justify-content: center;
@@ -85,11 +92,11 @@ body {
   left: 2px;
   bottom: 10px;
   color: #4aaaa5;
+  margin: 5px;
 }
 
 .About_Me {
-  display: flex;
-  shape-outside: content-box;
+
   border-top: solid;
   border-width: thin;
   width: 960px;
@@ -97,23 +104,23 @@ body {
   top: 20px;
 }
 
-#p {
-  margin: 10px;
-  float: inline-end;
-  font-style: normal;
-  font-size: x-large;
-  display: inline;
-  color: #777777;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-
 .bio-image {
   padding: 20px;
-  height: 180px;
-  width: 30%;
-  right: 17px;
+  height: auto;
   position: relative;
-  float: top;
+  width: 21%;
+  right: 15px;
+  float: left;
+  top: 10px;
+}
+
+#p {
+  margin: 10px; 
+  font-style: normal;
+  font-size: 27px;
+  color: #777777;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
 }
 
 
@@ -128,12 +135,107 @@ input[type=text], select {
   height: 30px;
 }
 
+.button {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  font-size: 14px;
+  color: #ffffff;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: relative;
+  right: 10px;
+}
+
 .submit {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   position: relative;
   bottom: 350px;
 }
 
+.holder {
+  right: 18px;
+}
+
+.box1 {
+  top: 170px;
+  margin-bottom: 3px;
+  color: white;
+  left: 20px;
+  width: 16.7%;
+  font-size: large;
+  text-align: center;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.box2 {
+  top: 170px;
+  margin-bottom: 3px;
+  color: white;
+  left: 260px;
+  width: 16.7%;
+  font-size: large;
+  text-align: center;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.box3 {
+  top: 170px;
+  margin-bottom: 3px;
+  color: white;
+  left: 500px;
+  width: 16.7%;
+  font-size: large;
+  text-align: center;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.box4 {
+  top: 414px;
+  margin-bottom: 3px;
+  color: white;
+  left: 20px;
+  width: 16.7%;
+  font-size: large;
+  text-align: center;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+}
+
+.box5 {
+  top: 414px;
+  margin-bottom: 3px;
+  color: white;
+  left: 260px;
+  width: 16.7%;
+  font-size: large;
+  text-align: center;
+  background-color: #4aaaa5;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  position: absolute;
+}
 
 .footer {
   background-color: #666666;
@@ -142,5 +244,5 @@ input[type=text], select {
   border-style: solid;
   text-align: center;
   position: relative;
-  bottom: 300px;
+  bottom: 340px;
 }
