@@ -243,6 +243,7 @@ input[type=text], select {
   border-top: #4aaaa5;
   border-style: solid;
   text-align: center;
+  color: #ffffff;
   position: relative;
   bottom: 340px;
 }
